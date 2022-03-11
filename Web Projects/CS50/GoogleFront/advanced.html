@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced search | Ragle</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="res/rLogo.png" />
+    </head>
+    <body>
+        <div class="navDiv">
+            <a href="index.html">Home</a>
+            <a href="images.html">Images</a>
+        </div>
+        <h1>Advanced Search</h1>
+        <form action="https://google.com/search">
+            <div class="advSearchMainDiv">
+                <div class="advSearchHeaders">
+                <h2>Find pages</h2>
+                <h3>How it works in organic search</h3>
+            </div>
+                <div class="advSearchLine">
+                    <div class="advNameDiv"><p class="advName">with words:</p></div>
+                    <input type="text" name="as_q">
+                    <p class="advExamp">Enter keywords: Ivan Fedorovich Kruzenshtern</p>
+                </div>
+
+                <div class="advSearchLine">
+                    <div class="advNameDiv"><p class="advName">with the phrase:</p></div>
+                    <input type="text" name="as_epq">
+                    <p class="advExamp">Enclose the phrase in quotation marks: "book Ivan Kruzenshtern"</p>
+                </div>
+
+                <div class="advSearchLine">
+                    <div class="advNameDiv"><p class="advName">with any of these words:</p></div>
+                    <input type="text" name="as_oq">
+                    <p class="advExamp">Insert an OR operator between the words: man OR steamboat</p>
+                </div>
+
+                <div class="advSearchLine">
+                    <div class="advNameDiv"><p class="advName">without words:</p></div>
+                    <input type="text" name="as_eq">
+                    <p class="advExamp">Put a minus sign before the words: -steamboat, - "book about the steamboat"</p>
+                </div>
+
+                <div class="advSearchLine">
+                    <div class="advNameDiv"><p class="advName">with a range of numbers:</p></div>
+                    <input type="text" name="as_nlo" style="width: 24%;">
+                    <p style="text-align:center; position:fixed;width: 2%;left:44%">-</p>
+                    <input type="text" name="as_nhi" style="width: 24%;left:46%">
+                    <p class="advExamp">Insert two dots between the numbers and specify the unit of measurement: 300..1000 rubles, 1812..1846</p>
+                </div>
+
+                <input type="submit" value="Search" id="advSearchButton">
+
+            </div>
+        </form>
+    </body>
+</html>
